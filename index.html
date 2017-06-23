@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Лига знаний</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="/libs/aweasome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style></style>
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+
+</head>
+
+<body>
+
+<div class="header container">
+	<nav class="navbar navbar-inverse fixed-top">
+		<div class="row">
+			<div class="col-2">
+				<a class="navbar__logo" href="#">logos</a>
+			</div>
+			<div class="offset-lg-5 col-5">
+				<ul class="nav">
+					<li class="nav-item">О нас</li>
+					<li class="nav-item">Услуги</li>
+					<li class="nav-item">Контакты</li>
+					<li class="nav-item">
+						<button class="navbar__button">Заказать</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<div class="imgcontent container-fluid">
+	<div class="row">
+		<div class="col-4 offset-lg-1 text-center align-middle">
+			<h1 class="animated fadeInDown wow" data-wow-delay="0.6s">Репетиторы в городе Владимир</h1>
+			<p class="animated fadeInDown wow" data-wow-delay="0.8s">Профессиональные репетиторы в городе Владимир.<br>
+					Работаем всю неделю с 10.00 до 18.00</p>
+			<button class="imgcontent__button animated fadeInDown wow" data-wow-delay="0.12s">Заказать</button>
+		</div>
+	</div>
+</div>
+
+<div class="services container text-center">
+	<h1 class="animated fadeInDown wow" data-wow-delay="0.4s">Перечень услуг</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+	<div class="services__card row">
+		<div class="col-lg-4">
+			<div class="card__element">
+				<div class="card__element-img text-center animated fadeInDown wow" data-wow-delay="0.4s">
+					<img src="img/icons/home.png" alt="На дом">
+				</div>
+				<h5>Репетитор на дом</h5>
+				<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				<button>Заказать</button>
+				<a href="#">Подробнее</a>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="card__element">
+				<div class="card__element-img text-center animated fadeInDown wow" data-wow-delay="0.6s">
+					<img src="img/icons/book.png" alt="Дополнительное образование">
+				</div>
+				<h5>Репетитор на дом</h5>
+				<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				<button>Заказать</button>
+				<a href="#">Подробнее</a>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="card__element">
+				<div class="card__element-img text-center animated fadeInDown wow" data-wow-delay="0.8s">
+					<img src="img/icons/star.png"alt="Специальные услуги">
+				</div>
+				<h5>Репетитор на дом</h5>
+				<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				<button>Заказать</button>
+				<a href="#">Подробнее</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="teacher container-fluid">
+	<h1>Наши репетиторы</h1>
+	<div class="teacher__slider">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner col-lg-8 offset-lg-2" role="listbox">
+				<div class="carousel-item active">
+					<div class="col-lg-5 item__photo">
+						<img src="img/women_one.png" alt="Мария Блохина">
+					</div>
+					<div class="item__text">
+						<h5>Мария Блохина</h5>
+						<div class="item__text-span">
+							<p>Стаж работы: <span class="text-bold">3 года</span></p>
+							<p>Предметы: <span class="text-bold">Алгебра, Геометрия, Русский, Английсский</span></p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+    		</div>
+				<div class="carousel-item">
+					<div class="col-lg-5 item__photo">
+						<img src="img/women_one.png" alt="Мария Блохина">
+					</div>
+					<div class="item__text">
+						<h5>Мария Блохина</h5>
+						<div class="item__text-span">
+							<p>Стаж работы: <span class="text-bold">3 года</span></p>
+							<p>Предметы: <span class="text-bold">Алгебра, Геометрия, Русский, Английсский</span></p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+    		</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+  		</a>
+		</div>
+	</div>
+</div>
+
+<div class="items container text-center">
+	<h1 class="animated fadeInDown wow">Мы помогаем понять и полюбить предмет</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Integer rhoncus in leo sed vulputate.</p>
+	<div class="services__card row text-center">
+		<div class="row">
+			<div class="col-lg-4 d-flex">
+				<div class="card__element">
+					<div class="card__element-img animated fadeInDown wow" data-wow-delay="0.4s">
+						<img src="img/icons/block.png" alt="Начальне классы">
+					</div>
+					<h5>Начальные классы</h5>
+					<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				</div>
+			</div>
+			<div class="col-lg-4 d-flex">
+				<div class="card__element">
+					<div class="card__element-img animated fadeInDown wow" data-wow-delay="0.6s">
+						<img src="img/icons/pen.png" alt="Средние классы">
+					</div>
+					<h5>Средние классы</h5>
+					<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				</div>
+				</div>
+			<div class="col-lg-4 d-flex">
+				<div class="card__element">
+					<div class="card__element-img animated fadeInDown wow" data-wow-delay="0.8s">
+						<img src="img/icons/board.png" alt="Старшие классы">
+					</div>
+					<h5>Старшие классы</h5>
+					<p>Репетитор на дом в г. Владимир по предметам : математика, алгебра, геометрия, русский и английский язык</p>
+				</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="reviews container">
+	<h1 class="animated fadeInDown wow" data-wow-delay="0.2s">Отзывы наших клиентов</h1>
+	<div class="teacher__slider">
+		<div id="carouselReviewsControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner col-lg-8 offset-lg-2" role="listbox">
+				<div class="carousel-item active">
+					<div class="col-lg-4 item__photo">
+						<img src="img/fb_two.png" alt="Роман Микулич">
+					</div>
+					<div class="item__text">
+						<h5>Антон Павлов</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+    		</div>
+				<div class="carousel-item">
+					<div class="col-lg-4 item__photo">
+						<img src="img/fb_one.png" alt="Мария Блохина">
+					</div>
+					<div class="item__text">
+						<h5>Роман Микулич</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+    		</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselReviewsControls" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#carouselReviewsControls" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+  		</a>
+		</div>
+	</div>
+</div>
+
+<div class="contact container text-center">
+	<h1 class="animated fadeInDown wow" data-wow-delay="0.4s">Контакты</h1>
+	<p>Сомневаетесь? Оставьте заявку на обратный звонок, и мы проконсультируем
+<br>Вас по телефону абсолютно бесплатно.</p>
+	<div class="row">
+		<div class="col-lg-5 offset-lg-1">
+			<div class="contact__card">
+				<h5>Контакты</h5>
+				<p><a href="#">+789(94)43242343</a></p>
+				<p><a href="#">+789(94)43242343</a></p>
+				<h5>Эл. почта</h5>
+				<p>ligaznanij@gmail.com</p>
+				<h5>Социальные сети</h5>
+				<ul class="nav">
+					<li class="nav-item"><i class="fa fa-odnoklassniki"></i></li>
+					<li class="nav-item"><i class="fa fa-vk"></i></li>
+					<li class="nav-item"><i class="fa fa-instagram"></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<div class="contact__card">
+				<h5>Обратная связь</h5>
+				<input type="text" name="" value="" placeholder="Введите имя">
+				<input type="text" name="" value="" placeholder="Введите телефон">
+				<textarea name="name" placeholder="Введите сообщение"></textarea>
+				<button type="button" name="button">Отправить</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<span>Центр Дополнительного Обучения “Лига знаний” 2017</span>
+</footer>
+
+	<div class="hidden"></div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Load Scripts Start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.js"></script>
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>
